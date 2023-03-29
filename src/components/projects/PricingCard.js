@@ -1,6 +1,6 @@
 import "./PricingCardStyles.css";
 import { Link } from "react-router-dom";
-import "../index.css"
+import "../../index.css"
 const PricingCard = () => {
   return <div className="pricing">
     <div className = "card-containers">

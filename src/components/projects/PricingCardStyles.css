@@ -16,7 +16,7 @@
     border: 1px solid #eee;
     color: #eee;
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 .card-container:hover{
@@ -30,6 +30,7 @@
 
 .card-container p{
     padding: 10px 0;
+    padding-bottom: 20px;
 }
 
 .bar{

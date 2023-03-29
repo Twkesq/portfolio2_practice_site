@@ -1,7 +1,7 @@
 import "./WorkCardStyles.css";
 
 import { NavLink } from "react-router-dom";
-import "../index.css"
+import "../../index.css"
 const WorkCard = ({title,imgsrc,details,view}) => {
   return <div className="project-card">
       <img src={imgsrc} alt="img"/>
