@@ -10,8 +10,10 @@ const Project = () => {
   return <div>
     <Navbar/>
     <HeroImg2 title={"Projects"}  subtitle={"Some of my works"}/>
+
     <PricingCard/>
     <Work/>
+
     <Footer/>
     </div>;
 };

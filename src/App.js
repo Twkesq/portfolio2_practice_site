@@ -7,6 +7,7 @@ import Project from "./routes/Project";
 import Contact from "./routes/Contact";
 
 import { Route, Routes } from "react-router-dom";
+import {MySkills} from "./routes/My_skills";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/project" element={<Project />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+          <Route path="/skills" element={<MySkills/>}/>
       </Routes>
     </>
   );

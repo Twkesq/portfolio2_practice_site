@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="left">
               <div className="location">
                   <FaHome style={{color:"#fff" , marginRight:"2rem"}} size={20}/>
-                  <div><p>123 House Bandery</p> <p>Ukraine</p></div>
+                  <div><p>Street Bandery 10</p> <p>Ukraine</p></div>
               </div>
               <div className="number">
                   <h4><FaPhone style={{color:"#fff" , marginRight:"2rem"}} size={20}/>
@@ -23,7 +23,7 @@ const Footer = () => {
 
         <div className="right">
               <h4>About the company</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries</p>
+              <p>Now I am not in any company</p>
 
               <div className="social">
               <FaFacebook style={{color:"#fff" , marginRight:"1rem"}} size={30}/>
