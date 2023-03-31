@@ -1,11 +1,13 @@
 import "./NavbarStyles.css";
 import { Link } from "react-router-dom";
-import {FaBars, FaTimes} from "react-icons/fa";
+import {FaBars, FaTimes, FaThemeco, FaMoon} from "react-icons/fa";
 import { useState } from "react";
 const Navbar = () => {
 
   const [click, setClick] = useState(false);
   const [color, setColor] = useState(false);
+
+  const [theme, setTheme] = useState('dark');
   const handleClick = () => setClick(!click);
 
   const changeColor = () => {
@@ -38,6 +40,8 @@ const Navbar = () => {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+
+
       <div className="hamburger" onClick={handleClick}>
         {click ? (<FaTimes size={20} style={{color: "#fff"}}/>) : (<FaBars size={20} style={{color: "#fff"}}/>)}
         

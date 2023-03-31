@@ -20,12 +20,41 @@
 
 .nav-menu li{
     padding: 0 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-menu li::after{
+    content: "";
 }
 
 .nav-menu li a{
     font-size: 1.2rem;
     font-weight: 500;
+    border:1px solid white;
+    padding: 15px 30px;
+    border-radius: 10px;
 }
+
+.nav-menu li:hover{
+    transform: scale(1.1);
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+
+
+
+
+
+
+
+
 
 .hamburger{
     display: none;
@@ -52,6 +81,7 @@
     }
     .nav-menu li{
         padding: 1rem 0;
+        margin: 10px;
     }
 
     .nav-menu li a {

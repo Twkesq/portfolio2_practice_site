@@ -40,6 +40,9 @@ ul {
   border: 1px solid #fff;
   font-weight: 600;
   cursor: pointer;
+  position: relative;
+  z-index: 1;
+  outline: 0;
 }
 
 .btn-light {
@@ -49,7 +52,37 @@ ul {
 }
 
 .btn:hover {
-  background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  /*background: rgba(255, 255, 255, 0.2);*/
+  background: rgba(0,0,0,0);
+  color: white;
   transition: 0.3s;
 }
+
+.btn-light:hover{
+  background: rgb(248,217,15);
+  color: black;
+}
+
+.row-flex {
+  display: flex;
+  gap: 5px;
+}
+
+
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
